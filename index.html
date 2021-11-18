@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="home">
+      <h1 class="heading">Welcome to trivia</h1>
+      <btn class="btn btn-start">Start Playing</btn>
+    </div>
+    <div class="quiz-card hidden">
+      <p class="quiz-question">What is my name?</p>
+      <button class="btn btn-opt btn-opt-1">harsh</button>
+      <button class="btn btn-opt btn-opt-2">steve</button>
+      <button class="btn btn-opt btn-opt-3">bill</button>
+      <button class="btn btn-opt btn-opt-4">ali</button>
+    </div>
+    <div class="results">
+      <p class="score">Score</p>
+      <p class="correct">
+        ✔️ Correct Answers:<span class="noOfCorrectAns">H</span>
+      </p>
+      <p class="incorrect">
+        ❌ Wrong Answers:<span class="noOfWrongAns">H</span>
+      </p>
+      <div class="replay-home">
+        <btn class="btn btn-start btn-replay">🔁 Replay</btn>
+        <btn class="btn btn-start btn-home">🏠 Home</btn>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
